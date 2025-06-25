@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <style>
+
+  </style>
+</head>
+<body>
+  <h1 >Ejercicio de una tabla</h1>
+
+  <table>
+    <tr>
+      <td>A</td>
+      <td>B</td>
+      <td>C</td>
+      <td>D</td>
+    </tr>
+    <tr>
+      <td rowspan="2">E, I</td>
+      <td>F</td>
+      <td colspan="2">G, H</td>
+    </tr>
+    <tr>
+      <td>J</td>
+      <td>K, O</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>M</td>
+      <td>N</td>
+      <td>P</td>
+    </tr>
+  </table>
+    <caption>CAPTION DE LA TABLA</caption>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <style>
+
+  </style>
+</head>
+<body>
+  <h1 >Ejercicio de una tabla numeros</h1>
+
+  <table>
+     <tr>
+      <td rowspan="2">1, 2</td>
+      <td>3</td>
+      <td colspan="2">4, 5</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+    </tr>
+   
+    <tr>
+      <td>10</td>
+      <td>11</td>
+      <td>12, 13</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>15</td>
+      <td>16</td>
+    
+    </tr>
+  </table>
+    <caption>CAPTION DE LA TABLA</caption>
+</body>
+</html>
+
