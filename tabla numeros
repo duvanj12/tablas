@@ -11,28 +11,44 @@
 
   <table>
      <tr>
-      <td rowspan="2">1, 2</td>
-      <td>3</td>
-      <td colspan="2">4, 5</td>
-    </tr>
-    <tr>
-      <td>6</td>
+      <td rowspan="1">
+         <ol>
+            <li>1.1</li>
+            <li>2.2</li>
+            <li>3.3</li>
+          </ol>
+         <td rowspan="2">
+          <ul>
+            <li>4.1</li>
+            <li>5.2</li>
+            <li>6.3</li>
+          </ul>
       <td>7</td>
       <td>8</td>
+     
+    </tr>
+    <tr>
       <td>9</td>
+      <td>10 </td>
+      <td>11</td>
+      <td>12</td>
     </tr>
    
     <tr>
-      <td>10</td>
-      <td>11</td>
-      <td>12, 13</td>
-    </tr>
-    <tr>
+      <td>13</td>
       <td>14</td>
-      <td>15</td>
-      <td>16</td>
-    
+      <td>15, 16</td>
+       <td colspan="3"> <dl>
+            <dt>17.1</dt>
+            <dd>18.1</dd>
+            <dt>19.2</dt>
+            <dd>20.1</dd>
+            <dt>21.3</dt>
+            <dd>22.1</dd>
+          </dl>
     </tr>
+    
+  
   </table>
     <caption>CAPTION DE LA TABLA</caption>
 </body>
