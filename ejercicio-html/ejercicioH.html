@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>EJERCICIO HTML</title>
+</head>
+<body>
+
+  <header>
+    <h1>Perfil De Desarrollador</h1>
+    <nav><!-- foto hoja de vida -->
+      <img src="https://avatars.githubusercontent.com/u/195705990?v=4&size=64" alt="">
+    </nav>
+    <!-- perfil -->
+   <strong> una persona dedicada organizada y muy proactiva llena de grandes cualidades y fortalesas, trabajo en equipo y de gran compañerismo impulsado por las ganas de aprender cada dia mas .</strong></p>
+  </header>
+
+  <main>
+<!-- datos -->
+    <section>
+      <h2>Datos Personales</h2>
+      <article>
+        <p><strong>Nombres:</strong> Duvan Alexander</p>
+        <p><strong>Apellidos:</strong> Jimenez Angulo</p>
+        <p><strong>Documento:</strong> 1012384445</p>
+        <p><strong>Dirección:</strong>carrera 81 77 sur 51</p>
+        <p><strong>Teléfono:</strong> 3213402913</p>
+        <p><strong>Correo:</strong> Duvan.dj12@gmail.com</p>
+        <p><strong>Edad:</strong> 33 años</p>
+        <p><strong>Estado civil:</strong> union libre</p>
+        <p><strong>Nacionalidad:</strong> Colombiano</p>
+        <p><strong>Profesión:</strong> tecnologo ADSO</p>
+      </article>
+    </section>
+<!-- tablas con todos los tipos de listas -->
+    <section>
+      <h2>Estudios Académicos</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Titulo</th>
+            <th>Institución</th>
+            <th>año</th>
+            <th>Logros</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>bachiller</td>
+            <td>llano oriental</td>
+            <td>2008</td>
+            <td>
+              <ul>
+                <li>bachiller academico</li>
+                <li>asitencia perfecta</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Tecnologo</td>
+            <td>Sena</td>
+            <td>2025</td>
+            <td>
+              <ol>
+                <li>tecnologo ADSO</li>
+                <li>Proyecto sobresaliente</li>
+              </ol>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Tecnologías</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Tecnología</th>
+            <th>Nivel</th>
+            <th>Aplicaciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML5</td>
+            <td>Fundamentos</td>
+            <td>
+              <dl>
+                <dt>Uso:</dt>
+                <dd>creacion de paginas wed</dd>
+              </dl>
+            </td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Fundamentos</td>
+            <td>
+              <ul>
+                <li>Automatización</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <aside>
+      <h2>Núcleo Familiar</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Parentesco</th>
+            <th>Edad</th>
+            <th>Datos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>angie cortes</td>
+            <td>pareja</td>
+            <td>29</td>
+            <td>
+              <ul>
+                <li>administradora en salud</li>
+                <li># 3143533488</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>nubia angulo</td>
+            <td>mama</td>
+            <td>58</td>
+            <td>
+              <ol>
+                <li>pensionada</li>
+                <li>#3213459625</li>
+              </ol>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </aside>
+
+    <section>
+      <h2>Últimos Trabajos</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Empresa</th>
+            <th>Cargo</th>
+            <th>Periodo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>green movil</td>
+            <td>operador</td>
+            <td>2022- 2023</td>
+           </tr>
+            <tr>
+            <td>servientrega</td>
+            <td>mensajero</td>
+            <td>2018- 2022</td>
+           </tr>
+            <tr>
+            <td>ETB</td>
+            <td>ftth</td>
+            <td>2011- 2018</td>
+           </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+        <!-- formulario -->
+      <h2>Modificar Información</h2>
+      <form action="/procesar" method="post" enctype="multipart/form-data">
+        <fieldset>
+          <legend>Datos Personales</legend>
+          <label>Nombres: <input type="text" name="nombres" value="Suvan Alexander "></label><br>
+          <label>Apellidos: <input type="text" name="apellidos" value="Jimenez Angulo"></label><br>
+          <label>Documento: <input type="number" name="documento" value="1012384445"></label><br>
+          <label>Dirección: <input type="text" name="direccion" value="Carrera 81 #77sur 51"></label><br>
+          <label>Teléfono: <input type="tel" name="telefono" value="3213402913"></label><br>
+          <label>Correo: <input type="email" name="correo" value="Duvan.dj12@gmail.com"></label><br>
+          <label>Fecha de nacimiento: <input type="date" name="fecha"></label><br>
+          <label>Estado civil: 
+            <input type="radio" name="estado" value="soltero" checked> Soltero
+            <input type="radio" name="estado" value="casado"> Casado
+            <input type="radio" name="estado" value="Union libre" checked> Union libre
+          </label><br>
+          <label>Nacionalidad:
+            <select name="nacionalidad">
+              <option value="colombiano">Colombiano</option>
+              <option value="otro">Otro</option>
+            </select>
+          </label><br>
+        </fieldset>
+<!-- input textarea -->
+        <fieldset>
+          <legend>Resumen Profesional</legend>
+          <label>Resumen:<br>
+            <textarea name="resumen" rows="4" cols="40">Desarrollador con fundamentos en python js css3 html5</textarea>
+          </label><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Adjuntar Hoja de Vida</legend>
+          <label>Archivo: <input type="file" name="hoja_de_vida"></label><br>
+        </fieldset>
+<!-- botones -->
+        <button type="submit" formmethod="get">Enviar con GET</button>
+        <button type="submit" formmethod="post">Enviar con POST</button>
+      </form>
+    </section>
+  </div>
+<!-- logos redes -->
+<p>Redes sociales:</p>
+<div class="grupo-logos">
+  <span class="logo">
+    <img class="logo-img"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/240px-F_icon.svg.png">
+  </span>
+  <span class="logo">
+    <img class="logo-img"
+      src="data:image/png;base64,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">
+  </span>
+  <span class="logo">
+    <img class="logo-img"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/240px-Instagram_logo_2016.svg.png">
+  </span>
+</div>
+<!-- LISTAS -->
+<p>Lista de redes sociales:</p>
+<ul>
+  <li><a href="http://twitter.com">Twitter</a></li>
+  <li><a href="http://facebook.com">Facebook</a></li>
+  <li><a href="http://Instagram.com">Instagram</a></li>
+</ul>
+
+  </main>
+
+
+  <footer>
+    
+    
+    
+    <p>&copy; 2025 Duvan Jimenez - Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
