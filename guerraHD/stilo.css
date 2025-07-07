@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fcd5b4;
+  margin: 0;
+  padding: 20px;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: auto;
+  background: #fcd5b4;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.panel-principal {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.panel {
+  flex: 1;
+  min-width: 300px;
+  background-color: #f8b4b4;
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-formularios {
+  background-color: #add8f0;
+}
+
+.seccion {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+#configTropas {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+#logBatalla {
+  height: 200px;
+  overflow-y: auto;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#estadisticasFinales {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#infoEjercitos img {
+  height: 20px;
+  vertical-align: middle;
+}
+
+#infoEjercitos table {
+  margin-top: 5px;
+  font-size: 14px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#infoEjercitos td {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.botones {
+  margin-top: 10px;
+  text-align: center;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-rojo {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.btn-morado {
+  background-color: #8e44ad;
+  color: white;
+}
+
+.btn-celeste {
+  background-color: #3498db;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+img.img-unidad {
+  width: 30px;
+  height: auto;
+  vertical-align: middle;
+}
+.img-submarino {
+  width: 80px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
