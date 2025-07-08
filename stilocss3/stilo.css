@@ -1,0 +1,116 @@
+/* /* Variables personalizadas */
+:root {
+  --rojo: #f00505;
+  --azul-oscuro: #021a4980;
+  --transparente: rgba(255, 255, 255, 0.232);
+  --sombra: rgba(184, 168, 226, 0.263);
+}
+
+/* Estilo global */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to bottom right, #010135, var(--azul-oscuro));
+  margin: 0;
+  color: #f1f0f3;
+  overflow-x: hidden;
+  transition: background 0.5s ease;
+}
+
+/* Encabezado */
+header {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(to right, #27140fe7, #2406cd, #128ed5cf);
+  box-shadow: 0 4px 10px var(--sombra);
+}
+
+header h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3rem;
+  color: var(--rojo);
+  text-shadow: 2px 2px 8px rgb(234, 229, 232);
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+/* Animación de brillo */
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px var(--rojo);
+  }
+  to {
+    text-shadow: 0 0 20px rgb(255, 255, 255);
+  }
+}
+
+/* Contenedor de tarjetas */
+.anime-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* Tarjeta de anime */
+.card {
+  background: var(--transparente);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px var(--sombra);
+  overflow: hidden;
+  transition: transform 0.4s ease, filter 0.3s;
+  width: 300px;
+  backdrop-filter: blur(5px);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+}
+
+.card:hover {
+  transform: scale(1.05) rotate(1deg);
+  filter: brightness(1.2);
+}
+
+/* Imagen */
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Información */
+.card .info {
+  padding: 1rem;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: var(--rosa);
+  text-shadow: 1px 1px 5px rgba(255,255,255,0.2);
+}
+
+.card p {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1010c8e9;
+  color: rgba(255,255,255,0.5);
+  font-size: 0.9rem;
+}
+
+/* Responsive en móviles */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .card {
+    width: 90%;
+    clip-path: none;
+  }
+}
