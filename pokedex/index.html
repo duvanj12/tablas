@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="stilo.css" />
+</head>
+<body>
+  <!-- header-->
+  <header>
+    <div class="header-contenido">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" alt="Pokeball" class="logo" />
+      <h1>Pokédex</h1>
+    </div>
+  </header>
+
+  <!-- Contenido principal dividido en panel izquierdo y derecho -->
+  <main class="layout">
+    <section class="panel-izquierdo">
+      <!-- Botones para filtrar pokémon -->
+      <div class="filtro-botones">
+        <button id="btnTodos" class="activo">Todos</button>
+        <button id="btnFavoritos">Favoritos ⭐</button>
+      </div>
+      <!-- Lista dinámica de pokémon -->
+      <div id="lista-pokemones" class="lista"></div>
+    </section>
+
+    <section class="panel-derecho">
+      <!-- Detalle dinámico del pokémon -->
+      <div id="detalle-pokemon" class="detalle"></div>
+    </section>
+  </main>
+
+  <!-- Controles de paginación -->
+  <div class="paginacion">
+    <button id="anterior">⏮ Anterior</button>
+    <span id="pagina-actual">1</span>
+    <button id="siguiente">Siguiente ⏭</button>
+  </div>
+
+  <!-- Importación del script principal -->
+  <script type="module" src="main.js"></script>
+</body>
+</html>
