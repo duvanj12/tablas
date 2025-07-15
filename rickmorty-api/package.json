@@ -1,0 +1,16 @@
+{
+  "name": "rickmorty.api",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --watch"
+  },
+  "dependencies": {
+    "lit": "^2.7.5",
+    "lit-translate": "^2.0.1",
+    "@material/web": "^1.0.0"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.37"
+  }
+}
