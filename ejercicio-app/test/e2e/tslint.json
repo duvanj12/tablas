@@ -1,0 +1,8 @@
+{
+  "extends": ["gts/tslint.json", "tslint-sonarts"],
+  "rules": {
+    "no-console": false,
+    "no-any": false,
+    "no-unused-expression": false
+  }
+}

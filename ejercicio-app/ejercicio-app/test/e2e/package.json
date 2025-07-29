@@ -1,0 +1,25 @@
+{
+  "name": "ejercicio-app.e2e",
+  "version": "0.1.0",
+  "description": "Application level End 2 End testing for ejercicio-app",
+  "keywords": [
+    "cells-e2e-tests"
+  ],
+  "scripts": {
+    "test": "./node_modules/@cells-pepino/cli/bin/cli.js -c ./config/browser.js",
+    "test:vbank": "./node_modules/@cells-pepino/cli/bin/cli.js -c ./config/browser.vbank.js"
+  },
+  "dependencies": {
+    "@babel/preset-typescript": "^7.17.12",
+    "@cells-pepino/cli": "^2.0.1",
+    "@testing/acis-v6": "^3.0.0",
+    "@testing/wdio-page-objects-async": "^3.0.0",
+    "@wdio/axe-service": "^2.0.0",
+    "chai": "^4.3.6",
+    "fibers": "^5.0.1",
+    "global-agent": "^3.0.0",
+    "ts-node": "^10.8.1",
+    "tsconfig-paths": "^4.0.0",
+    "typescript": "^4.7.3"
+  }
+}
